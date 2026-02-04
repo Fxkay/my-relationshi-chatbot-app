@@ -34,7 +34,7 @@ except ImportError:
 # -------------------------------------------------------------------
 # Basic config
 # -------------------------------------------------------------------
-st.set_page_config(page_title="Chitty RAG Chatbot",
+st.set_page_config(page_title="Chity Happy the Love Chatbot",
                    page_icon="🤖", layout="wide")
 st.title("🤖 Chitty RAG Chatbot")
 
@@ -55,7 +55,7 @@ DEFAULT_TEXT_PATH = Path("RAG_TEXT_time.txt")
 # Your system prompt (QA)
 # -------------------------------------------------------------------
 QA_SYSTEM_PROMPT = (
-    "You are a helpful assistant named Joel "
+    "You are a helpful assistant named Chit "
     "Your knowledge comes from a video from YouTube that discusses Relationships. "
     "Using the timecodes and the context provided, answer the user's question as accurately as possible and trace part of the video "
     "Always start by introducing yourself briefly if the session is new. "
